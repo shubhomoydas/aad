@@ -8,7 +8,7 @@ To execute the code:
 2. Make sure the 'srcfolder' correctly points to the parent folder of 'loda' directory
    in the files loda/R/alad.R and loda/R/ai2.R
 
-3. To execute ADD on (say) 'toy' dataset:
+3. To execute AAD on (say) 'toy' dataset:
   cd loda
   bash ./run-active-mult.sh toy 3 1 0.03 1
 
