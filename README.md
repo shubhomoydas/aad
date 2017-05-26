@@ -22,4 +22,7 @@ To execute the code:
     cd loda
     bash ./prep-alad-summary.sh toy 3 1 0.03
   
-  
+
+Python Implementation
+------------
+The python implementation at https://github.com/shubhomoydas/pyaad is more current.
