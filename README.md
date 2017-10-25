@@ -1,3 +1,13 @@
+IMPORTANT
+------------
+This codebase is no longer maintained; instead, use the Python implementation below.
+
+
+Python Implementation
+------------
+The python implementation at https://github.com/shubhomoydas/pyaad is current. This python implementation also supports tree-based classifiers and streaming tree-based classifiers. Also, the optimization in python implementation uses gradient descent with ideas borrowed from deep-network training such as RMSProp and ADAM which are more suited to the high-dimensional linear optimization as required for tree-based classifiers. These changes make the per-feedback optimization *much* faster than solving a large constrained linear programming problem while having similar detection performance.
+
+
 Active Anomaly Discovery
 ------------------------
 
@@ -22,7 +32,3 @@ To execute the code:
     cd loda
     bash ./prep-alad-summary.sh toy 3 1 0.03
   
-
-Python Implementation
-------------
-The python implementation at https://github.com/shubhomoydas/pyaad is more current.
