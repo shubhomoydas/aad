@@ -5,7 +5,7 @@ This codebase is no longer maintained; instead, use the Python implementation be
 
 Python Implementation
 ------------
-The python implementation at https://github.com/shubhomoydas/pyaad is current. This python implementation also supports tree-based classifiers and streaming tree-based classifiers. Also, the optimization in python implementation uses gradient descent with ideas borrowed from deep-network training such as RMSProp and ADAM which are more suited to the high-dimensional linear optimization as required for tree-based classifiers. These changes make the per-feedback optimization *much* faster than solving a large constrained linear programming problem while having similar detection performance.
+The python implementation at https://github.com/shubhomoydas/ad_examples is current. This python implementation also supports tree-based classifiers and streaming tree-based classifiers. Also, the optimization in python implementation uses gradient descent with ideas borrowed from deep-network training such as RMSProp and ADAM which are more suited to the high-dimensional linear optimization as required for tree-based classifiers. These changes make the per-feedback optimization *much* faster than solving a large constrained linear programming problem while having similar detection performance.
 
 
 Active Anomaly Discovery
